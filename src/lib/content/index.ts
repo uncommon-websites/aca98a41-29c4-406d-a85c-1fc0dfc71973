@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Orchestrate",
+	description: "Seamless work execution by connecting AI models with unified tool orchestration across every workplace surface",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://orchestrate.co",
 	fontFamily: "Inter Variable"
 };
