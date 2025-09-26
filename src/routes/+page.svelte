@@ -83,5 +83,10 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Ready to get your hours back?"
+	subtitle="Stop juggling tools. Start making progress."
+	description="You're not slow—your workflow is. Teams waste 3+ hours a day navigating tabs, copying data, and translating intent across disconnected apps. Join teams accelerating 10M+ daily workflows with a smarter, simpler way to work."
+	imageSrc="/generated/image-a-cheerful-product-manager-in-a-contempo.webp"
+/>
