@@ -11,16 +11,20 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Intent-driven execution",
+			description: "We understand your goals and orchestrate the right tools to achieve them, without the busy work."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Seamless orchestration", 
+			description: "Every system works as one. No more context switching, copy-pasting, or missed connections between tools."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Human-centered AI",
+			description: "Our AI amplifies your decision-making. You focus on strategy while we handle the tool choreography."
+		},
+		{
+			title: "Operational excellence",
+			description: "Built by operators who've felt the pain. We know what product teams need because we've been there."
 		}
 	];
 </script>
@@ -44,61 +48,33 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Connecting AI models with unified tool orchestration."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			name: "Rajiv Sancheti",
+			position: "Founder",
+			bio: "Visionary founder focused on eliminating tool-switching overhead for knowledge workers.",
+			image: "/generated/image-professional-headshot-business-portrait-.webp"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Connor Waslo",
+			position: "Founder",
+			bio: "Co-founder dedicated to building the first true intent-based interface for workplace automation.",
+			image: "/generated/image-professional-headshot-business-portrait-.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Stop losing hours to tool switching"
+	subtitle="Get early access"
+	description="Product managers at fast-growing companies are saving 3+ hours daily by orchestrating all their tools through one intent-driven interface. See how much faster your team can move when everything just clicks together."
+	imageSrc="/generated/image-a-professional-product-manager-confident.webp"
 />
